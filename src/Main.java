@@ -34,5 +34,30 @@ public class Main {
             }
             System.out.print(myArr[i] + ", ");
         }
+        // Задача 3
+        System.out.println();
+        System.out.println("Задача 3");
+        System.out.println();
+        for (int i = (arrInt.length - 1); i < arrInt.length; i--){
+            if(i == 0){
+                System.out.println(arrInt[i]);
+                break;
+            }
+            System.out.print(arrInt[i] + ", ");
+        }
+        for (int i = (arrDouble.length - 1); i < arrDouble.length; i--){
+            if(i == 0){
+                System.out.println(arrDouble[i]);
+                break;
+            }
+            System.out.print(arrDouble[i] + ", ");
+        }
+        for (int i = (myArr.length - 1); i < myArr.length; i--){
+            if(i == 0){
+                System.out.println(myArr[i]);
+                break;
+            }
+            System.out.print(myArr[i] + ", ");
+        }
     }
 }
